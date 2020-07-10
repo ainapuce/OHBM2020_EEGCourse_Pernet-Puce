@@ -1,0 +1,50 @@
+Brain Vision Data Exchange Header File Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=CGX_rawdata_2020-07-10.eeg
+MarkerFile=CGX_rawdata_2020-07-10.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+DataType=TIMEDOMAIN
+NumberOfChannels=13
+DataPoints=185344
+SamplingInterval=2000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+UseBigEndianOrder=NO
+
+[Channel Infos]
+ch1=Fp1,,1000000,uV
+ch2=Fp2,,1000000,uV
+ch3=Fz,,1000000,uV
+ch4=C3,,1000000,uV
+ch5=Pz,,1000000,uV
+ch6=O1,,1000000,uV
+ch7=O2,,1000000,uV
+ch8=C4,,1000000,uV
+ch9=ACC8,,1000,mg
+ch10=ACC9,,1000,mg
+ch11=ACC10,,1000,mg
+ch12=Packet Counter,,1,DIGITAL
+ch13=TRIGGER,,1,DIGITAL
+
+
+
+[Comment]
+
+
+Recording Start Time
+2020-07-10 15:58:10.113
+
+
+Channel 	 Name 	 Impedance (kOhm) 	 Offset (mV)
+0 	 Fp1 	 228 	 -22
+1 	 Fp2 	 139 	 -66
+2 	 Fz 	 236 	 119
+3 	 C3 	 187 	 118
+4 	 Pz 	 206 	 98
+5 	 O1 	 150 	 90
+6 	 O2 	 152 	 84
+7 	 C4 	 177 	 78
